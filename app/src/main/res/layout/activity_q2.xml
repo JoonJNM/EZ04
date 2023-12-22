@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcc0f7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="375dp"
+        android:layout_height="130dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="2. ในกีฬาเทนนิส คำว่า &quot;Love&quot; หมายถึงอะไร"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/q201"
+        android:layout_width="136dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="300dp"
+        android:text="ได้แต้ม"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.065"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q203"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="204dp"
+        android:text="ไม่มีคะแนน"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.066"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q202"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="300dp"
+        android:text="ฟลาวด์"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.922"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q204"
+        android:layout_width="137dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="200dp"
+        android:text="ออก"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.912"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="436dp"
+        android:layout_height="286dp"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_02" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

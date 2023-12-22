@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcc0f7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="375dp"
+        android:layout_height="130dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="7. กระบวนการที่ผู้เล่นใช้เพื่อเรียกผู้ตัดให้ตัดลูกเพื่อให้ลูกเปลี่ยนทิศทางเรียกว่าอะไร "
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/q701"
+        android:layout_width="136dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="300dp"
+        android:text="สลับ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q703"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="204dp"
+        android:text="ไบคิล"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q702"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="300dp"
+        android:text="แมทช์พอยต์"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q704"
+        android:layout_width="137dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="200dp"
+        android:text="ไลบรารี"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="420dp"
+        android:layout_height="238dp"
+        android:layout_marginBottom="404dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.555"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/__071" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

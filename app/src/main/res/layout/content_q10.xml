@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dcc0f7"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/txt"
+        android:layout_width="375dp"
+        android:layout_height="130dp"
+        android:gravity="center_horizontal|center_vertical"
+        android:text="10. ข้อใดไม่ใช่ชื่อรายการ การแข่งขันเทนนิส"
+        android:textSize="24sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.041" />
+
+    <Button
+        android:id="@+id/q1001"
+        android:layout_width="136dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="300dp"
+        android:text="ออสเตรเลียน โอเพ่น"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.08"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q1003"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="204dp"
+        android:text="เฟรนซ์ โอเพ่น"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.081"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q1002"
+        android:layout_width="140dp"
+        android:layout_height="63dp"
+        android:layout_marginBottom="300dp"
+        android:text="ทอมัสคัพ"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.885"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/q1004"
+        android:layout_width="137dp"
+        android:layout_height="65dp"
+        android:layout_marginBottom="200dp"
+        android:text="วิมเบิลดัน"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.886"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="521dp"
+        android:layout_height="278dp"
+        android:layout_marginBottom="384dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/_10" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
